@@ -1,18 +1,16 @@
 <div align="center">
 
 # 🤖 J.A.R.V.I.S
-### Build your own Iron-Man-style AI assistant — with a real voice from [**Fish Audio**](https://fish.audio/?utm_source=YOUR_UTM_HERE)
+### Build your own Iron-Man-style AI assistant — with a real voice from [**Fish Audio**](https://fish.audio/?fpr=rcic6s)
 
 Say **“Hey Jarvis”**, ask it anything, and watch the arc-reactor HUD light up as it answers
 in the iconic JARVIS voice — then checks the weather, writes you a note, searches the web, or sends an email.
 
 **⏱ ~15 minutes · 💸 free to start · 🪟 Windows · 🧠 no coding required**
 
-**⚡ Powered by [Fish Audio](https://fish.audio/?utm_source=YOUR_UTM_HERE) (the voice) + Claude (the brain)**
+**⚡ Powered by [Fish Audio](https://fish.audio/?fpr=rcic6s) (the voice) + Claude (the brain)**
 
 </div>
-
-> 📌 **Repo owner:** replace every `https://fish.audio/?utm_source=YOUR_UTM_HERE` in this file with your real Fish Audio link before sharing.
 
 ---
 
@@ -39,7 +37,7 @@ git clone https://github.com/JoseBlancoSiles/build-your-own-jarvis.git
 </details>
 
 ### 3. Give JARVIS its voice — Fish Audio 🐟
-👉 **[Create your free Fish Audio account](https://fish.audio/?utm_source=YOUR_UTM_HERE)**
+👉 **[Create your free Fish Audio account](https://fish.audio/?fpr=rcic6s)**
 
 Then: click your **profile → API Keys → Create**, and copy the key (starts with `sk-…`).
 
@@ -102,7 +100,7 @@ The JARVIS voice is a Fish Audio **`reference_id`** in `.env`:
 ```env
 FISH_VOICE_ID=612b878b113047d9a770c069c8b4fdfe   # "Jarvis (MCU)"
 ```
-Browse the [Fish Audio Voice Library](https://fish.audio/?utm_source=YOUR_UTM_HERE), open any voice, and paste its ID here.
+Browse the [Fish Audio Voice Library](https://fish.audio/?fpr=rcic6s), open any voice, and paste its ID here.
 
 ---
 
@@ -137,7 +135,7 @@ Finish Step 1 (with the PATH tick) and paste both keys in Step 5, then double-cl
 
 <div align="center">
 
-Built as a collaboration with **[Fish Audio](https://fish.audio/?utm_source=YOUR_UTM_HERE)** — give your projects the best voice on the planet. 🐟🔊
+Built as a collaboration with **[Fish Audio](https://fish.audio/?fpr=rcic6s)** — give your projects the best voice on the planet. 🐟🔊
 
 ⭐ **Star this repo if JARVIS made your day.**
 

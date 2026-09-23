@@ -30,7 +30,7 @@ SPOTIPY_CLIENT_SECRET = _get("SPOTIPY_CLIENT_SECRET")
 SPOTIPY_REDIRECT_URI = _get("SPOTIPY_REDIRECT_URI", "http://127.0.0.1:8888/callback")
 
 # --- Collab link ---
-FISH_AUDIO_UTM = _get("FISH_AUDIO_UTM", "https://fish.audio/?utm_source=YOUR_UTM_HERE")
+FISH_AUDIO_UTM = _get("FISH_AUDIO_UTM", "https://fish.audio/?fpr=rcic6s")
 
 
 def status() -> dict:
