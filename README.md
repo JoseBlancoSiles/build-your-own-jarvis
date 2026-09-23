@@ -34,7 +34,7 @@ Click the green **`Code ▾`** button at the top of this page → **Download ZIP
 <details><summary>💻 Prefer the command line? (optional)</summary>
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+git clone https://github.com/JoseBlancoSiles/build-your-own-jarvis.git
 ```
 </details>
 
