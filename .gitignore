@@ -1,0 +1,14 @@
+# secrets & caches — NEVER commit these
+.env
+.spotify_cache
+
+# user-generated / runtime output
+outbox/
+notes/
+*.eml
+*.mp3
+
+# python
+.venv/
+__pycache__/
+*.pyc

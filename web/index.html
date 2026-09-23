@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>J.A.R.V.I.S</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Rajdhani:wght@300;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/web/styles.css" />
+</head>
+<body data-state="asleep">
+  <!-- animated reactor / engine core -->
+  <canvas id="reactor"></canvas>
+
+  <!-- HUD overlay -->
+  <div class="hud">
+    <header class="topbar">
+      <div class="brand">J.A.R.V.I.S<span class="brand-sub">// just a rather very intelligent system</span></div>
+      <div class="pills" id="pills"></div>
+    </header>
+
+    <div class="center">
+      <div class="status" id="status">DORMANT</div>
+      <div class="status-sub" id="statusSub">say &ldquo;Hey Jarvis&rdquo; to wake me</div>
+    </div>
+
+    <!-- weather dashboard (shown when you ask for the weather) -->
+    <div class="wx" id="wx" hidden></div>
+
+    <div class="captions">
+      <div class="you" id="you"></div>
+      <div class="jarvis" id="jarvis"></div>
+      <div class="actionlog" id="actionlog"></div>
+    </div>
+
+    <footer class="bottombar">
+      <div class="hint" id="hint">Say &ldquo;<b>Hey&nbsp;Jarvis</b>&rdquo; &nbsp;·&nbsp; or hold <b>Space</b> to talk</div>
+      <a class="collab" id="collab" href="#" target="_blank" rel="noopener">Powered by <b>Fish&nbsp;Audio</b> &nbsp;›</a>
+    </footer>
+
+    <!-- tiny, non-blocking sound-enable nudge (browsers require 1 gesture for audio out) -->
+    <div class="enable" id="enable">click anywhere once to enable JARVIS&rsquo;s voice</div>
+  </div>
+
+  <script src="/web/app.js"></script>
+</body>
+</html>
